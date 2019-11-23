@@ -87,56 +87,7 @@ ol li{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-/*NAVBAR STARTS*/
-.cus-top {
-    height: 90px;
-	margin: 20px 0px;
-}
-.cus-nav span{
-	color: #31333e;
-	font-size: 30px;
-	font-weight: bold;
-	text-transform: uppercase;
-	position: relative;
-	top: -10px;
-	left: 20px;
-	font-family: sans-serif;
-}
-.cus-nav span:hover{
-	border-bottom: 0px;
-}
-a:hover{
-	text-decoration: none;
-}
-.navbar-links{
-	margin: 12px 100px 0px 0px;
-}
-.navbar-links li{
-	display: inline;
-}
-.navbar-links li a{
-	margin-right: 20px;
-	font-weight: 12px;
-	text-transform: uppercase;
-	color: #626262;
-}
-.navbar-links li a:hover{
-	transition: 0.2s;
-	color: #66ceff;
-}
-.after:after{
-	content: "";
-	border: 1px solid #555555;
-	margin-left: 22px;
-}
-.cus-input{
-	background: url(../imgs/search.png) no-repeat 100%;
-	border: 0px;
-	background-color: #f1f3f6;
-	height: 30px;
-	width: 120px;
-}
-/*NAVBAR ENDS
+
 
 /*PORTFOLIO HEADING STARTS*/
 .portfolio-head{
@@ -155,6 +106,7 @@ a:hover{
 	padding-top: 35px;
 }
 .work-links a{
+
 	color: #626262;
 	font-size: 15px;
 	font-family: sans-serif;
@@ -163,6 +115,7 @@ a:hover{
 	text-transform: capitalize;
 }
 .work-links a:hover{
+	transition: .3s;
 	font-size: 20px;
 	color: blue;
 }
@@ -358,5 +311,8 @@ a:hover{
 	}
 	.copyright li{
 		margin-right: 6px;
+	}
+	.works h3{
+		font-size: 30px;
 	}
 }
