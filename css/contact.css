@@ -1,0 +1,139 @@
+.header-outter{
+    background-color: #e2e7ed;
+    height: 110px;
+}
+.header-outter h2{
+    font-size: 44.8px;
+    margin-top: -30px;
+    padding-top: 30px;
+    font-family: sans-serif;
+    color: #626262;
+}
+.after-header p{
+    margin: 40px 0px 30px 0px;
+    padding-left: 0px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #2a2e39;
+    font-family: sans-serif;
+}
+.form-inner p{
+    color: #383c46;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+input{
+    width: 400px;
+    height: 40px;
+    border-bottom: 1px;
+}
+.form-btn{
+    width: 220px;
+    height: 60px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #00aeff;
+    margin: 40px 0px;
+    font-size: 22px;
+}
+.cus-map{
+    padding-left: 110px;
+}
+.cus-map h4{
+    font-size: 30px;
+    padding-top: 0px;
+    font-family: sans-serif;
+    color: #626262;
+}
+iframe{
+    margin: 45px 0px 20px 0px;
+}
+.cus-map img, h5{
+    display: inline;
+}
+.cus-map img{
+    margin-bottom: -5px;
+}
+.cus-map h5{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 17px;
+    padding-left: 20px;
+}
+small{
+    display: block;
+   padding-left: 40px;
+   font-size: 15px;
+   font-weight: bold;
+   color: #626262;
+   font-family: sans-serif;
+}
+.cus-small{
+    margin: 20px 0px;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .cus-map{
+        padding-left: 20px;
+    }
+}
+@media only screen and (max-width: 768px){
+    iframe{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 425px){
+    .navbar-links{
+		margin-top: 7px;
+	}
+}
+@media only screen and (max-width:375px){
+	.cus-footer{
+		height: 320px;
+		padding-left: 0px;
+	}
+	.social-icons img{
+		padding-left: 0px;
+	}
+	.navbar-links li{
+        font-size: 13px;
+    }
+    input{
+        width:100%
+    }
+    .header-outter h2{
+        font-size: 38px;
+    }
+}
+@media only screen and (max-width:325px){
+    .header-outter h2{
+        font-size: 33px;
+    }
+	.navbar-links li{
+		font-size: 11px;
+	}
+	.works h3{
+		padding-top:13px;
+	}	
+	.work-links{
+		padding-top: 23px;
+	}
+	.work-links a{
+		margin-right: 15px;
+		font-size:15px
+	}
+	.social-icons img{
+		padding: 0px 3px;
+	}	
+	.footer-after:after{
+		display: none;
+	}
+	.copyright li{
+		margin-right: 6px;
+	}
+}
